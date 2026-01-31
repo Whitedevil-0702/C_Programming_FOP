@@ -1,5 +1,5 @@
 #include <stdio.h>   
-int main(void) {
+int main() {
     int rows, cols, i, j;
     printf("Enter number of rows: ");
     if (scanf("%d", &rows) != 1 || rows <= 0) return 1;
