@@ -2,14 +2,14 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+void main() {
     char str1[100], str2[100];
     int len, i, j, flag = 1;
 
     printf("Enter the first string: ");
-    gets(str1);
+    ///gets(str1);
     printf("Enter the second string: ");
-    gets(str2);
+    ///gets(str2);
 
     // i) Length of string
     len = strlen(str1);
@@ -50,5 +50,5 @@ int main() {
         printf("Second string is not a substring of first string.\n");
     }
 
-    return 0;
+   
 }
